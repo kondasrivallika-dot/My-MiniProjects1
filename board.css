@@ -1,0 +1,30 @@
+body{
+    font-family:Arial;
+    background:#f0f2f5;
+    text-align:center;
+    }
+    
+    .board{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    }
+    
+    .column{
+    background:white;
+    width:250px;
+    min-height:350px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+    }
+    
+    .task{
+    background:#3498db;
+    color:white;
+    margin:8px;
+    padding:10px;
+    border-radius:5px;
+    cursor:grab;
+    }

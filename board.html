@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Board</title>
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+    <div class="board">
+
+        <div class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h3>Todo</h3>
+        <input id="taskInput" placeholder="New Task">
+        <button onclick="addTask()">Add</button>
+        <div id="todo"></div>
+        </div>
+        
+        <div class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h3>Doing</h3>
+        <div id="doing"></div>
+        </div>
+        
+        <div class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h3>Done</h3>
+        <div id="done"></div>
+        </div>
+
+    </div>
+
+    <script src="board.js"></script>
+    
+</body>
+</html>

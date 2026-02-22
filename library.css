@@ -1,0 +1,51 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#eef2f7;
+}
+
+h1{
+    color:#333;
+}
+
+.form{
+    margin:20px;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+    background:#007bff;
+    color:white;
+}
+
+table{
+    width:70%;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+}
+
+th,td{
+    border:1px solid #ccc;
+    padding:10px;
+}
+
+th{
+    background:#222;
+    color:white;
+}
+
+.issue{
+    background:orange;
+}
+
+.delete{
+    background:red;
+}

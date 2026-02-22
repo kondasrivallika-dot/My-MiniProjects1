@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Dashboard</title>
+<link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="bank">
+
+        <h1>Bank Dashboard</h1>
+        
+        <h2>Balance: ₹ <span id="balance">1000</span></h2>
+        
+        <input type="number" id="amount" placeholder="Enter Amount">
+        
+        <div>
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()">Withdraw</button>
+        </div>
+        <h3>Transaction History</h3>
+<ul id="history"></ul>
+
+</div>
+
+<script src="bank.js"></script>
+</body>
+</html>
